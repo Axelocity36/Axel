@@ -4,7 +4,7 @@
  
  class DriveForward(StateAutonomous):
  
- MODE_NAME = 'Red Path A'
+ MODE_NAME = 'Blue Path A'
  
  def initialize (self):
  
