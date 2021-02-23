@@ -4,7 +4,7 @@
  
  class DriveForward(StateAutonomous):
  
- MODE_NAME = 'Red Path A'
+ MODE_NAME = 'Red Path B'
  
  def initialize (self):
  
@@ -38,7 +38,7 @@
   def turn_right2(self):
       self.myRobot.tankDrive(.8, .5)
       
-  @timed_state(duration=2.5, next_state='stop')
+  @timed_state(duration=1.5, next_state='stop')
   def drive_forward4(self):
       self.myRobot.tankDrive(.8, .8)
       
