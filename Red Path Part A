@@ -30,7 +30,7 @@
   def turn_left(self):
       self.myRobot.tankDrive(.5, .8)
       
-  @timed_state(duration=1, next_state='turn_right2')
+  @timed_state(duration=2, next_state='turn_right2')
   def drive_forward3(self):
       self.myRobot.tankDrive(.8, .8)
       
